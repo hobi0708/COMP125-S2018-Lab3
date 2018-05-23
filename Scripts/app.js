@@ -138,7 +138,7 @@ let app = (function () {
             let newItem = document.createElement("li");
             newItem.textContent = thing;
             myFavouritesList.appendChild(newItem);
-        }
+        };
         
         
         console.log(myFavouritesList);
